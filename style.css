@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-image:linear-gradient(90deg, #83b7ff, #fe4545);
+}
+
+/*Vamos estilizar nossa sessão de jogadores*/
+.jogadores{
+margin: 10%;
+display: inline-block;
+text-align: center;
+width: 50%;
+background-image:linear-gradient(#83b7ff, #fe4545);
+border-radius: 10px;
+}
+
+/*Vamos estilizar nosso botão*/
+button{
+    width: 20%;  /* Tamanho em relação a tela*/
+    padding: 1%; /*Espaço entre a letra e a borda de dentro do  botão*/
+    color:   blue  ;    /*cor da letra*/
+    border: radius 10px;
+    font-size: 30px;   /*Tamanho da letra*/
+    background-color: #fe4545;
+}
+
+.footer_do_meu_rodape{
+    margin-top: 140px ;
+    background-image:linear-gradient(#83b7ff, #fe4545);
+    width: 100%;
+    font-size: 70%;
+}

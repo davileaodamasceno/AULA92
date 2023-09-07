@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advinhe a palavra</title>
+    <!--Linkar o CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Linkar o JAVA SCRIPT-->
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h2>Advinhe a palavra</h2>
+    </header>
+
+    <main>
+        <div class="jogadores">
+            <h4>Jogador 1, faça login para jogar.</h4>
+            <label>Nome do usuário</label>&nbsp;&nbsp;
+            <br>
+            <input type="text" placeholder="Nome do Jogador" id="nomeJogador1">
+        </div>
+
+        <!--Vamos fazer o segundo espaço para guardar o outro jogador-->
+        <div class="jogadores">
+            <h4>Jogador 2, faça o login para jogar.</h4>
+            
+        <label>Nome do usuário</label>  
+        <br>  
+        <input type="text" placeholder="Nome do Jogador" id="nomeJogador2"> 
+        </div>
+
+        <br>
+        <!--Vamos fazer um botão para logar no jogo-->
+        <button type="submit" onclick="addUser()">Login</button>
+    </main>
+
+    <footer><h4 class="footer_do_meu_rodape">Desenvolvido Por Davi Leão</h4></footer>
+
+</body>
+
+</html>
